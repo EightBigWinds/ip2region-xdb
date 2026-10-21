@@ -1,4 +1,6 @@
 0.0.0.0|0.255.255.255|0|0|内网IP|本网络地址
+28.0.0.0|28.255.255.255|0|0|内网IP|FakeIP-V4
+10.10.10.0|10.10.10.255|0|0|内网IP|内网网段
 10.0.0.0|10.255.255.255|0|0|内网IP|私有网络A类
 100.64.0.0|100.127.255.255|0|0|内网IP|运营商级NAT
 127.0.0.0|127.255.255.255|0|0|内网IP|本地回环
@@ -19,7 +21,7 @@
 64:ff9b::|64:ff9b::ffff:ffff|0|0|内网IP|IPv4-IPv6转换
 100::|100::ffff:ffff:ffff:ffff|0|0|内网IP|丢弃前缀
 2001::|2001::ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|Teredo隧道
-2001:2::|2001:2:ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|基准测试
+2001:2::|2001:2:ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|FakeIP-V6
 2001:db8::|2001:db8:ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|文档用途
 2002::|2002:ffff:ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|6to4隧道
 fc00::|fdff:ffff:ffff:ffff:ffff:ffff:ffff:ffff|0|0|内网IP|唯一本地地址
